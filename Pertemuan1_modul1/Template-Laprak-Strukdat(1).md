@@ -122,15 +122,11 @@ int main(){
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided1-modul1.png) 
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided2-Modul1.png)
-
-##### Output 3
-![Screenshot Output Unguided 1_2](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided3-modul1.png)
-
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+Program ini berfungsi untuk menerima dua bilangan dari pengguna (tipe data float), lalu menampilkan hasil operasi aritmetika dasar
+
+### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di- input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
 
 ```C++
 source code unguided 2 
@@ -162,17 +158,13 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided2-Modul1.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
+Program ini berfungsi untuk mengubah angka (0-100) menjadi tulisan dalam Bahasa Indonesia
 
-### 3. (isi dengan soal unguided 3)
+### 3. Buatlah sebuah program yang memberikan input dan output...
 
 ```C++
 source code unguided 3
@@ -202,16 +194,12 @@ int main(){
 
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+##### Output 3
+![Screenshot Output Unguided 1_2](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided3-modul1.png)
 
 penjelasan unguided 3
+Program diatas digunakan untuk mencetak pola segitiga simetris dengan angka dan tanda bintang (*) ditengah
+
 
 ## Kesimpulan
 Modul 1 mengenalkan penggunaan Code::Blocks IDE serta konsep dasar bahasa C++, mencakup tipe data, operator aritmetika, mekanisme input-output, percabangan, dan perulangan. Melalui latihan guided dan unguided, mahasiswa dapat menerapkan teori tersebut ke dalam program nyata, seperti pembuatan kalkulator sederhana, konversi angka menjadi teks, dan pembuatan pola angka. Pemahaman materi ini menjadi dasar penting untuk mempelajari konsep pemrograman C++ yang lebih lanjut pada modul-modul berikutnya.
