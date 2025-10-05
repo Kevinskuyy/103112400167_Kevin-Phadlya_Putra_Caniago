@@ -160,7 +160,6 @@ int main(){
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/4d7b258b8084c13a94d77b1d4cfd50461e312e80/Pertemuan1_modul1/Output-Unguided2-Modul1.png)
 
-
 penjelasan unguided 2
 Program ini berfungsi untuk mengubah angka (0-100) menjadi tulisan dalam Bahasa Indonesia
 
