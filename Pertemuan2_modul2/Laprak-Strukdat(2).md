@@ -1,10 +1,8 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 1 - Array & Pointer Pengenalan Bahas C++ (Bagian Kedua)</h1>
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Menurut Pratama (2024), C++ merupakan bahasa pemrograman yang mendukung paradigma prosedural dan berorientasi objek, serta memiliki konsep dasar penting seperti array dan pointer. Array digunakan untuk menyimpan sekumpulan data bertipe sama secara berurutan di memori, sehingga mempermudah pengelolaan dan akses data melalui indeks. Sementara itu, pointer adalah variabel yang menyimpan alamat memori dari variabel lain, memungkinkan program mengakses dan memanipulasi data secara langsung. Dalam C++, pointer dan array memiliki hubungan erat karena nama array sebenarnya menunjukkan alamat elemen pertamanya, sehingga keduanya dapat saling digunakan untuk mengakses data [1]
 
 ### A. Array
 Array di C++ adalah kumpulan elemen dengan tipe data yang sama, disimpan dalam urutan tertentu di memori, dan dapat diakses menggunakan indeks. Array digunakan ketika kita ingin menyimpan banyak data sejenis tanpa harus membuat banyak variabel.
@@ -15,7 +13,7 @@ Artinya, pointer tidak menyimpan nilai secara langsung, tetapi menyimpan lokasi 
 
 ## Guided 
 
-### 1. ...
+### 1. 
 
 ```C++
 source code guided 1
@@ -260,8 +258,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian 
-)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan2_modul2/output%20no1.png)
 
 penjelasan unguided 1 
 Program C++ ini berfungsi untuk menjalankan kalkulasi standar (penjumlahan, pengurangan, dan perkalian) pada dua matriks 3×3 yang datanya telah ditetapkan sebelumnya.
@@ -321,15 +318,14 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/output%20no%202.png)
 
 penjelasan unguided 2
 Program ini digunakan untuk menghitung luas dan keliling persegi panjang menggunakan pointer, serta menunjukkan bagaimana perubahan nilai melalui pointer akan memengaruhi variabel aslinya.
 
 ## Kesimpulan
-...
+Dari hasil praktikum yang telah dilakukan, dapat disimpulkan bahwa array dan pointer adalah dua konsep penting dalam pemrograman C++. Array digunakan untuk menyimpan banyak data yang memiliki tipe sama secara berurutan, sehingga memudahkan kita dalam mengolah dan mengakses data menggunakan indeks. Sedangkan pointer berfungsi untuk menyimpan alamat memori dari suatu variabel, sehingga program bisa membaca dan mengubah nilai variabel tersebut secara langsung.
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Moenawar. (2018). Pointer dan Fungsi dalam C/C++. Diakses melalui https://moenawar.web.id/wp-content/uploads/2018/03/SD-Lab-5-6-pointer-dan-fungsi.pdf
+[2] Sindar, Anita. (2019). Struktur Data dan Algoritma dengan C++. Medan: Universitas Negeri Medan
