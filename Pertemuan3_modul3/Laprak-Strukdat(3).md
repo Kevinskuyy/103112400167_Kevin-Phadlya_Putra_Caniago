@@ -101,7 +101,7 @@ int main(){
     tampilList(L);
     return 0;
 }
-
+```
 penjelasan singkat guided 1
 Program ini membuat struktur data Linked List (daftar berantai) dengan tipe data float, lalu:
 
@@ -143,7 +143,7 @@ int main(){
     return 0;
 
 }
-
+```
 penjelasan singkat guided 2
 Program ini digunakan untuk menginput data mahasiswa (nama dan dua nilai), lalu menghitung rata-rata nilainya menggunakan fungsi dan struct (ADT).
 
@@ -178,10 +178,10 @@ int main() {
         cout << "Nilai Akhir: " << hitungNilaiAkhir(uts, uas, tugas) << endl;
     }
 }
-### Output Unguided 1 :
 
+```
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20nomor%201%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20nomor%201%20pertemuan%203.png)
 
 penjelasan unguided 1 
 Program C++ ini berfungsi untuk menghitung nilai akhir beberapa mahasiswa 
@@ -207,6 +207,7 @@ int main() {
 
     return 0;
 }
+```
 
 file pelajaran.cpp
 ```C++
@@ -223,6 +224,7 @@ void tampil_pelajaran(pelajaran pel) {
     cout << "nama pelajaran : " << pel.namaMapel << endl;
     cout << "nilai : " << pel.kodeMapel << endl;
 }
+```
 
 file pelajaran.h
 ```C++ 
@@ -240,9 +242,10 @@ struct pelajaran {
 pelajaran create_pelajaran(string namaPel, string kodePel);
 void tampil_pelajaran(pelajaran pel);
 #endif
+```
 
 ### Output Unguided 2 :
-![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no2%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no2%20pertemuan%203.png)
 
 
 penjelasan unguided 2
@@ -259,6 +262,7 @@ Program ini digunakan untuk menyimpan dan menampilkan data pelajaran (nama pelaj
 -fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah pointer
 
 source code unguided 3
+```C++
 #include <iostream>
 using namespace std;
 
@@ -306,10 +310,10 @@ int main() {
 
     return 0;
 }
-
+```
 
 ### Output Unguided 3 :
-![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no3%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no3%20pertemuan%203.png)
 
 ## Kesimpulan
 ADT membantu memisahkan antara logika data dan cara implementasinya, sehingga program lebih mudah dipahami, STRUCT digunakan untuk membuat tipe data baru seperti data mahasiswa dan pelajaran, LINKED LIST merupakan penerapan ADT yang menggunakan pointer untuk menghubungkan antar elemen data
