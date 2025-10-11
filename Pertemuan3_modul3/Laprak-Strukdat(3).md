@@ -181,11 +181,10 @@ int main() {
 
 ```
 ##### Output 1
-![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20nomor%201%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/cfefbd105e10acacceb1f3b8e78e6ff0842e0439/Pertemuan3_modul3/output%20nomor%201%20pertemuan%203.png)
 
 penjelasan unguided 1 
 Program C++ ini berfungsi untuk menghitung nilai akhir beberapa mahasiswa 
-
 
 
 ###2.Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h" ... 
@@ -245,7 +244,7 @@ void tampil_pelajaran(pelajaran pel);
 ```
 
 ### Output Unguided 2 :
-![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no2%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/cfefbd105e10acacceb1f3b8e78e6ff0842e0439/Pertemuan3_modul3/output%20no2%20pertemuan%203.png)
 
 
 penjelasan unguided 2
@@ -313,7 +312,7 @@ int main() {
 ```
 
 ### Output Unguided 3 :
-![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no3%20pertemuan%203.png)
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/cfefbd105e10acacceb1f3b8e78e6ff0842e0439/Pertemuan3_modul3/output%20no3%20pertemuan%203.png)
 
 ## Kesimpulan
 ADT membantu memisahkan antara logika data dan cara implementasinya, sehingga program lebih mudah dipahami, STRUCT digunakan untuk membuat tipe data baru seperti data mahasiswa dan pelajaran, LINKED LIST merupakan penerapan ADT yang menggunakan pointer untuk menghubungkan antar elemen data
