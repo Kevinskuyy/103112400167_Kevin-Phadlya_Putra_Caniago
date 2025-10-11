@@ -118,145 +118,34 @@ source code guided 2
 #include <iostream>
 using namespace std;
 
-// Struktur Node
-struct Node {
-    float info;
-    Node* next;
+struct Mahasiswa {
+    string nama;
+    float nilai1;
+    float nilai2;
 };
 
-// Deklarasi List
-typedef Node* List;
-
-// Membuat Node baru
-Node* createNode(float X) {
-    Node* p = new Node;
-    p->info = X;
-    p->next = NULL;
-    return p;
+void inputMHS(Mahasiswa &m) {
+    cout << "input nama:";
+    cin >> m.nama;
+    cout << "input nilai 1: ";
+    cin >> m.nilai1;
+    cout << "input nilai 2: ";
+    cin >> m.nilai2;
+}
+float rata2(Mahasiswa m) {
+    return float (m.nilai1 + m.nilai2) / 2;
 }
 
-// Menambah elemen di akhir list
-void insertLast(List &L, Node* p) {
-    if (L == NULL) {
-        L = p;
-    } else {
-        Node* last = L;
-        while (last->next != NULL) {
-            last = last->next;
-        }
-        last->next = p; 
-    }
-}
-
-// Mencari nilai X di list
-bool searchX(List L, float X) {
-    Node* p = L;
-    while (p != NULL) {
-        if (p->info == X)
-            return true;
-        p = p->next;
-    }
-    return false;
-}
-
-// Menghapus elemen sesuai kondisi soal
-void deleteElement(List &L, float X) {
-    if (L == NULL) {
-        cout << "List kosong" << endl;
-        return;
-    }
-
-    // Cek apakah X ada
-    if (!searchX(L, X)) {
-        cout << "Tidak ada elemen bernilai " << X << endl;
-        return;
-    }
-
-    // Jika X di awal list
-    if (L->info == X) {
-        Node* del = L;
-        L = L->next;
-        delete del;
-        cout << "Elemen awal bernilai X dihapus" << endl;
-        return;
-    }
-
-    Node* p = L;
-    Node* prev = NULL;
-
-    // Cari node dengan nilai X
-    while (p != NULL && p->info != X) {
-        prev = p;
-        p = p->next;
-    }
-
-    // Jika X ditemukan dan bukan di akhir list
-    if (p != NULL && p->next != NULL) {
-        Node* del = p->next;
-        p->next = del->next;
-        cout << "Elemen setelah " << X << " dihapus" << endl;
-        delete del;
-        return;
-    }
-
-    // Jika X di akhir list
-    prev->next = NULL;
-    delete p;
-    cout << "Elemen " << X << " di akhir list dihapus" << endl;
-}
-
-// Menampilkan list
-void printList(List L) {
-    Node* p = L;
-    while (p != NULL) {
-        cout << p->info << " -> ";
-        p = p->next;
-    }
-    cout << "NULL" << endl;
-}
-
-// Program utama
-int main() {
-    List L = NULL;
-    float X;
-
-    // Membuat list awal
-    insertLast(L, createNode(15));
-    insertLast(L, createNode(30));
-    insertLast(L, createNode(40));
-    insertLast(L, createNode(50));
-
-    cout << "List awal: ";
-    printList(L);
-
-    cout << "Masukkan nilai X: ";
-    cin >> X;
-
-    deleteElement(L, X);
-
-    cout << "List setelah penghapusan: ";
-    printList(L);
-
+int main(){
+    Mahasiswa mhs; // Pemanggil struct (ADT)
+    inputMHS(mhs); // Pemanggil prosedur
+    cout << "Rata - rata: " << rata2(mhs) << endl; // Pemanggil function
     return 0;
+
 }
 
 penjelasan singkat guided 2
-Program ini membuat **linked list** berisi angka, lalu meminta input nilai **X** dan **menghapus elemen tertentu** sesuai posisi X:
-
-* Jika X di awal → hapus elemen pertama.
-* Jika X di tengah → hapus elemen setelah X.
-* Jika X di akhir → hapus elemen terakhir.
-Kemudian program menampilkan list sebelum dan sesudah penghapusan.
-
-
-### 3. ...
-
-```C++
-source code guided 3
-
-penjelasan singkat guided 3
-Program ini menunjukkan dua cara mengakses elemen array di C++, yaitu menggunakan pointer dan indeks.
-
+Program ini digunakan untuk menginput data mahasiswa (nama dan dua nilai), lalu menghitung rata-rata nilainya menggunakan fungsi dan struct (ADT).
 
 ## Unguided 
 
@@ -292,10 +181,11 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan2_modul2/output%20no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20nomor%201%20pertemuan%203.png)
 
 penjelasan unguided 1 
 Program C++ ini berfungsi untuk menghitung nilai akhir beberapa mahasiswa 
+
 
 
 ###2.Buatlah ADT pelajaran sebagai berikut di dalam file "pelajaran.h" ... 
@@ -352,14 +242,78 @@ void tampil_pelajaran(pelajaran pel);
 #endif
 
 ### Output Unguided 2 :
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no2%20pertemuan%203.png)
 
-##### Output 1
-![Screenshot Output Unguided 2_1] 
+
 penjelasan unguided 2
-...
+Program ini digunakan untuk menyimpan dan menampilkan data pelajaran (nama pelajaran dan kode pelajaran) menggunakan konsep modularisasi yaitu memisahkan kode menjadi beberapa file:
+-main.cpp → program utama
+-pelajaran.h → header (deklarasi struct & fungsi)
+-pelajaran.cpp → implementasi fungsi
+
+
+###3.Buatlah program dengan ketentuan:
+-2 buah array 2D integer berukuran 3x3 dan 2 buah pointer integer
+-fungsi/prosedur yang menampilkan isi sebuah array integer 20
+-fungsi/prosedur yang akan menukarkan isi dari 2 array integer 20 pada posisi tertentu
+-fungsi/prosedur yang akan menukarkan isi dari variabel yang ditunjuk oleh 2 buah pointer
+
+source code unguided 3
+#include <iostream>
+using namespace std;
+
+void tampilArray(int arr[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++)
+            cout << arr[i][j] << " ";
+        cout << endl;
+    }
+}
+
+void tukarElemen(int arr1[3][3], int arr2[3][3], int i, int j) {
+    int temp = arr1[i][j];
+    arr1[i][j] = arr2[i][j];
+    arr2[i][j] = temp;
+}
+
+void tukarPointer(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int A[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    int B[3][3] = {{9,8,7},{6,5,4},{3,2,1}};
+    int x = 10, y = 20;
+    int *p1 = &x, *p2 = &y;
+
+    cout << "Array A:" << endl;
+    tampilArray(A);
+    cout << "Array B:" << endl;
+    tampilArray(B);
+
+    tukarElemen(A, B, 1, 1);
+    cout << "Setelah tukar A[1][1] dan B[1][1]:" << endl;
+    cout << "Array A:" << endl;
+    tampilArray(A);
+    cout << "Array B:" << endl;
+    tampilArray(B);
+
+    cout << "Sebelum tukar pointer: x=" << x << ", y=" << y << endl;
+    tukarPointer(p1, p2);
+    cout << "Setelah tukar pointer: x=" << x << ", y=" << y << endl;
+
+    return 0;
+}
+
+
+### Output Unguided 3 :
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan3_modul3/output%20no3%20pertemuan%203.png)
 
 ## Kesimpulan
-...
+ADT membantu memisahkan antara logika data dan cara implementasinya, sehingga program lebih mudah dipahami, STRUCT digunakan untuk membuat tipe data baru seperti data mahasiswa dan pelajaran, LINKED LIST merupakan penerapan ADT yang menggunakan pointer untuk menghubungkan antar elemen data
 
 ## Referensi
-...
+[1] Deitel, P. J., & Deitel, H. M. (2017). C++ How to Program (10th Edition). Pearson Education.
+[2] GeeksforGeeks. Abstract Data Types (ADT) in C++. https://www.geeksforgeeks.org/abstract-data-types/
