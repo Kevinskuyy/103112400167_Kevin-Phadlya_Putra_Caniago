@@ -15,6 +15,7 @@ Double Linked List (Doubly Linked List) adalah struktur data berantai dua arah, 
 1.prev → menunjuk ke node sebelumnya,
 2.next → menunjuk ke node berikutnya,
 3.serta data yang disimpan di tengahnya
+
 ## Guided 
 
 ### 1. 
