@@ -740,8 +740,10 @@ penjelasan unguided 2
 Program di atas merupakan implementasi Singly Linked List dalam bahasa C++ yang memiliki fungsi untuk menambah, menghapus, menampilkan, dan menghitung jumlah elemen (node) dalam list.
 
 ## Kesimpulan
-...
+Dari praktikum ini dapat disimpulkan bahwa Singly Linked List adalah struktur data dinamis yang tersusun dari node-node saling terhubung satu arah. Struktur ini memudahkan proses menambah, menghapus, dan menelusuri data tanpa perlu mengatur ulang seluruh memori seperti pada array. Melalui implementasi dalam bahasa C++, kita dapat memahami cara kerja operasi dasar seperti insert, delete, serta fungsi untuk menghitung dan menghapus semua elemen dalam list.
 
 
 ## Referensi
-...
+[1]Horowitz, E., & Sahni, S. (1984). Fundamentals of Data Structures in Pascal. Computer Science Press.
+[2]Lafore, R. (2002). Data Structures and Algorithms in C++. Sams Publishing.
+[3]Malik, D. S. (2010). Data Structures Using C++. Course Technology.
