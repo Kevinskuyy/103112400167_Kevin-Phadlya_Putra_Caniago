@@ -553,7 +553,7 @@ void insertFirst (List &L, address P);
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/Pertemuan2_modul2/output%20no1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/71f336217b9bb9e43eec2d8371c054b51c4bb65b/Pertemuan4_modul4/nomor1/UNGUIDED%201.png)
 
 penjelasan unguided 1 
 Program C++ ini berfungsi untuk menjalankan kalkulasi standar (penjumlahan, pengurangan, dan perkalian) pada dua matriks 3×3 yang datanya telah ditetapkan sebelumnya.
@@ -734,7 +734,7 @@ void deleteList(List &L);
 ### Output Unguided 2 :
 
 ##### Output 2
-![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/main/output%20no%202.png)
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/71f336217b9bb9e43eec2d8371c054b51c4bb65b/Pertemuan4_modul4/nomor2/UNGUIDED%202.png)
 
 penjelasan unguided 2
 Program di atas merupakan implementasi Singly Linked List dalam bahasa C++ yang memiliki fungsi untuk menambah, menghapus, menampilkan, dan menghitung jumlah elemen (node) dalam list.
