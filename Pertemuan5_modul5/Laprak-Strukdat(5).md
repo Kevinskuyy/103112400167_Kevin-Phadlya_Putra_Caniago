@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - SINGLY LINKED LIST (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 5 - SINGLY LINKED LIST (Bagian Kedua)</h1>
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
@@ -442,7 +442,6 @@ linear.cpp → Melakukan pencarian linear (Linear Search), yaitu memeriksa setia
 
 ### 1. Soal Unguided 1...
 
-file main.cpp
 ```C++
 #include <iostream>
 using namespace std;
@@ -552,14 +551,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/761f874cd68a2c492ad15b9b52c06f67fd9795ee/Pertemuan5_modul5/unguidedno.cpp/OUTPUT%20BINERY.png)
 
 penjelasan unguided 1 
 Program ini menunjukkan cara menggunakan algoritma Binary Search pada linked list, lengkap dengan:
 Proses iterasi pencarian.
 Tampilan node tengah di setiap langkah.
 Informasi node saat nilai ditemukan.
-
 
 
 ### 2. Soal Unguided 2...
@@ -661,14 +659,15 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 2
-![Screenshot Output Unguided 2_1]
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/761f874cd68a2c492ad15b9b52c06f67fd9795ee/Pertemuan5_modul5/unguidedno.cpp/OUTPUT%20LINEAR.png)
 
 penjelasan unguided 2
 Program ini digunakan untuk mencari nilai tertentu di dalam linked list menggunakan algoritma Linear Search, dengan menampilkan proses pencarian secara langkah demi langkah.
 
 ## Kesimpulan
-... 
-
+Dari hasil praktikum dapat diketahui bahwa Singly Linked List adalah struktur data yang fleksibel dan efektif dalam pengelolaan data.
+Algoritma Linear Search melakukan pencarian secara berurutan melalui setiap node, sedangkan Binary Search bekerja lebih cepat pada data terurut dengan prinsip pembagian dua bagian pencarian.
+Keduanya memiliki perbedaan dalam mekanisme kerja, namun tetap memiliki nilai penting dalam penerapan algoritma pencarian pada struktur data.
 
 ## Referensi
-...
+[1] Rosen, K. H. (2012). Discrete Mathematics and Its Applications (7th ed.). New York: McGraw-Hill.
