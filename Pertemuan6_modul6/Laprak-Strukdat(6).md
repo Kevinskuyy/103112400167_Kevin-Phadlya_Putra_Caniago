@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 5 - DOUBLY LINKED LIST (Bagian Pertama)</h1>
+# <h1 align="center">Laporan Praktikum Modul 6 - DOUBLY LINKED LIST (Bagian Pertama)</h1>
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
