@@ -2,13 +2,13 @@
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
-Menurut Rosen [1], algoritma pencarian merupakan langkah-langkah sistematis yang digunakan untuk menemukan suatu elemen dalam kumpulan data. Algoritma ini memiliki peran penting dalam pengolahan data karena menentukan seberapa cepat dan efisien proses pencarian dapat dilakukan. Dua algoritma pencarian yang umum digunakan adalah Linear Search dan Binary Search.
+Menurut Newell, Shaw, dan Simon (1956), linked list adalah struktur data dinamis yang menyimpan elemen tidak secara berurutan di memori, tetapi saling terhubung melalui pointer [1]. Salah satu jenisnya yaitu doubly linked list, di mana setiap node memiliki dua pointer: next untuk menunjuk ke node berikutnya dan prev untuk menunjuk ke node sebelumnya [2]. Struktur ini memungkinkan traversal data ke dua arah serta memudahkan operasi insert dan delete di posisi mana pun tanpa perlu menggeser elemen lain. Namun, penggunaan dua pointer membuatnya membutuhkan memori lebih besar dibanding singly linked list [3].
 
 ### A. INSERT
-
+Insert adalah operasi untuk menambah node baru ke dalam doubly linked list, baik di awal, tengah, maupun akhir list, dengan menyesuaikan pointer next dan prev agar tetap terhubung dengan benar
 
 ### B. DELETE
-
+Delete adalah operasi untuk menghapus node dari list dengan cara memutus hubungan pointer next dan prev pada node yang dihapus sehingga struktur list tetap konsisten
 
 ## Guided 
 
@@ -756,7 +756,7 @@ int main() { // penggunaan fungsi-fungsi dalam Doublylist
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/68f0d57de73fd1168ebb9f1b8b32fa1e665881ae/Pertemuan6_modul6/unguided/Screenshot%202025-11-03%20202515.png)
 
 penjelasan unguided 1 
 Program ini digunakan untuk mengelola data kendaraan menggunakan struktur data Doubly Linked List (linked list dua arah).
@@ -768,9 +768,9 @@ Mencari data berdasarkan nomor polisi
 Menghapus data tertentu menggunakan deleteAfter
 
 ## Kesimpulan
-Dari hasil praktikum dapat diketahui bahwa Singly Linked List adalah struktur data yang fleksibel dan efektif dalam pengelolaan data.
-Algoritma Linear Search melakukan pencarian secara berurutan melalui setiap node, sedangkan Binary Search bekerja lebih cepat pada data terurut dengan prinsip pembagian dua bagian pencarian.
-Keduanya memiliki perbedaan dalam mekanisme kerja, namun tetap memiliki nilai penting dalam penerapan algoritma pencarian pada struktur data.
+Doubly Linked List adalah struktur data yang memungkinkan penelusuran data ke dua arah menggunakan pointer next dan prev. Melalui praktikum ini, operasi seperti insert, update, search, dan delete dapat dilakukan dengan lebih efisien tanpa perlu menggeser elemen lain seperti pada array. Namun, struktur ini membutuhkan memori lebih besar karena setiap node menyimpan dua pointer.
 
 ## Referensi
-[1] Rosen, K. H. (2012). Discrete Mathematics and Its Applications (7th ed.). New York: McGraw-Hill.
+[1] Newell, A., Shaw, C., & Simon, H. A. (1956). Programming the Logic Theory Machine. RAND Corporation.
+[2] Wikipedia. (2025). Doubly linked list. Diakses dari https://en.wikipedia.org/wiki/Doubly_linked_list
+[3] Devopedia. (2024). Linked List (Data Structure). Diakses dari https://devopedia.org/linked-list-data-structure
