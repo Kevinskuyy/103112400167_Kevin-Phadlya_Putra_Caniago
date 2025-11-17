@@ -542,6 +542,13 @@ int main(){
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%201.png)
 
+##### Output 2
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/d0e204930fbc4859b3c06990d6fb2a95c3d92bd6/Pertemuan7_modul7/Unguided/OUTPUT%202.png)
+
+##### Output 3
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/d0e204930fbc4859b3c06990d6fb2a95c3d92bd6/Pertemuan7_modul7/Unguided/OUTPUT%203.png)
+
+
 penjelasan unguided 1 
 Program ini membuat struktur data stack dengan operasi dasar seperti push, pop, dan menampilkan isi stack. Selain itu, terdapat fungsi tambahan seperti balikStack untuk membalik isi stack, pushAscending untuk memasukkan elemen sambil menjaga urutan menaik, dan getInputStream untuk membaca input digit satu per satu. Pada main.cpp, semua fungsi tersebut diuji untuk melihat cara kerja stack dan fitur tambahannya.
 
