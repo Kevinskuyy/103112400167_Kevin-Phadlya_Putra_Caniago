@@ -535,12 +535,12 @@ int main(){
 
     return 0;
 }
+``` 
 
 ### Output Unguided 1 :
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%201.png) (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%202.png) (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%203.png)
-```
 
 
 penjelasan unguided 1 
