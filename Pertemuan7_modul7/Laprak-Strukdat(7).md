@@ -539,14 +539,18 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]
+![Screenshot Output Unguided 1_1] (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%201.png) (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%202.png) (https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/9041891a374759c56a44b1ebc72d7e1f2b553eed/Pertemuan7_modul7/Unguided/OUTPUT%203.png)
+```
 
 
 penjelasan unguided 1 
-...
+Program ini membuat struktur data stack dengan operasi dasar seperti push, pop, dan menampilkan isi stack. Selain itu, terdapat fungsi tambahan seperti balikStack untuk membalik isi stack, pushAscending untuk memasukkan elemen sambil menjaga urutan menaik, dan getInputStream untuk membaca input digit satu per satu. Pada main.cpp, semua fungsi tersebut diuji untuk melihat cara kerja stack dan fitur tambahannya.
 
 ## Kesimpulan
-...
+Praktikum ini menunjukkan cara kerja stack dengan prinsip LIFO, baik menggunakan array maupun linked list. Mahasiswa mampu memahami dan mengimplementasikan operasi dasar stack serta beberapa fitur tambahan seperti pembalikan stack, memasukkan data secara terurut, dan membaca input berurutan. Praktikum ini membantu memahami penggunaan stack dalam pemrograman secara efektif.
+
 
 ## Referensi
-...
+Aho, A. V., Hopcroft, J. E., & Ullman, J. D. (1974). The Design and Analysis of Computer Algorithms. Addison-Wesley.[1]
+Kruse, R. L., & Ryba, R. J. (1998). Data Structures and Program Design in C++. Prentice Hall.[2]
+Dale, N., & Lewis, J. (2010). Computer Science Illuminated. Jones & Bartlett Learning.[3]
