@@ -726,26 +726,24 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/5d000ee127ac2c09eaabf10378b47edda02fad1c/Pertemuan8_modul8/unguided1/Screenshot%202025-11-24%20090120.png)
 
 ### Output Unguided 2 :
 
 ##### Output 2
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/5d000ee127ac2c09eaabf10378b47edda02fad1c/Pertemuan8_modul8/unguided2/Screenshot%202025-11-24%20090357.png)
 
-### Output Unguided 2 :
+### Output Unguided 3 :
 
 ##### Output 3
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 3_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/5d000ee127ac2c09eaabf10378b47edda02fad1c/Pertemuan8_modul8/unguided3/Screenshot%202025-11-24%20090559.png)
 
 penjelasan unguided 1 
-Program ini membuat struktur data stack dengan operasi dasar seperti push, pop, dan menampilkan isi stack. Selain itu, terdapat fungsi tambahan seperti balikStack untuk membalik isi stack, pushAscending untuk memasukkan elemen sambil menjaga urutan menaik, dan getInputStream untuk membaca input digit satu per satu. Pada main.cpp, semua fungsi tersebut diuji untuk melihat cara kerja stack dan fitur tambahannya.
+...
 
 ## Kesimpulan
-Praktikum ini menunjukkan cara kerja stack dengan prinsip LIFO, baik menggunakan array maupun linked list. Mahasiswa mampu memahami dan mengimplementasikan operasi dasar stack serta beberapa fitur tambahan seperti pembalikan stack, memasukkan data secara terurut, dan membaca input berurutan. Praktikum ini membantu memahami penggunaan stack dalam pemrograman secara efektif.
+...
 
 
 ## Referensi
-Aho, A. V., Hopcroft, J. E., & Ullman, J. D. (1974). The Design and Analysis of Computer Algorithms. Addison-Wesley.[1]
-Kruse, R. L., & Ryba, R. J. (1998). Data Structures and Program Design in C++. Prentice Hall.[2]
-Dale, N., & Lewis, J. (2010). Computer Science Illuminated. Jones & Bartlett Learning.[3]
+...
