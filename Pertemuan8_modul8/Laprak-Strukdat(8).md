@@ -2,7 +2,7 @@
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
-...
+Struktur data adalah cara untuk mengatur, menyimpan, dan mengelola data di dalam komputer agar data mudah diakses, diproses, dan diubah. Dengan struktur data, data bisa dikelola dengan lebih baik dan program berjalan lebih cepat dalam memproses informasi. Struktur data juga membantu memahami bagaimana data saling terhubung, sehingga memudahkan pencarian dan pengubahan data sesuai kebutuhan aplikasi. Menggunakan struktur data yang tepat akan membantu programmer meningkatkan kinerja aplikasi dan menghadapi masalah data yang rumit [1].
 
 ### A. QUEUE
 Queue merupakan struktur data yang dapat diumpamakan seperti sebuah antrean,Jadi prinsip dasar dalam Queue adalah FIFO (First in Fisrt out), proses yang pertama masuk akan diakses terlebih dahulu. Dalam pengimplementasian struktur Queue dalam C dapat menggunakan tipe data array dan linked list.
@@ -218,7 +218,8 @@ void searchQueue(queue Q, int data);
 ```
 
 penjelasan singkat guided 1
-...
+Program tersebut mengimplementasikan struktur data Queue (antrian) menggunakan linked list. Setiap elemen queue disimpan dalam node yang berisi data angka dan pointer ke node berikutnya. Queue memiliki dua pointer utama, yaitu head untuk menunjuk elemen paling depan dan tail untuk menunjuk elemen paling belakang. Program menyediakan fungsi dasar seperti createQueue untuk inisialisasi, isEmpty untuk mengecek apakah queue kosong, alokasi dan dealokasi untuk membuat serta menghapus node, enqueue untuk menambahkan elemen ke bagian belakang queue, dan dequeue untuk menghapus elemen dari bagian depan queue. Selain itu, terdapat fitur tambahan seperti updateQueue yang memungkinkan pengguna mengganti nilai node tertentu berdasarkan posisi, viewQueue untuk menampilkan seluruh isi queue, dan searchData untuk mencari apakah suatu nilai terdapat dalam queue. Pada fungsi main, program membuat lima node (1 - 5), menambahkannya ke queue, menampilkan antrian, menghapus dua node terdepan, mengupdate beberapa posisi, dan melakukan pencarian data.
+
 
 ### 2. Guided
 file main.cpp
@@ -339,7 +340,7 @@ void printInfo(Queue Q);
 ```
 
 penjelasan singkat guided 2
-... 
+Program tersebut mengimplementasikan Circular Queue menggunakan array berukuran tetap (MAX_QUEUE = 5). Struktur queue menyimpan tiga informasi penting: indeks head sebagai posisi elemen depan, tail sebagai posisi elemen belakang berikutnya, serta count sebagai jumlah elemen yang sedang tersimpan. Fungsi createQueue menginisialisasi queue agar kosong, sementara isEmpty dan isFull digunakan untuk mengecek kondisi queue. Operasi enqueue menambahkan data ke posisi tail, lalu memutar indeks menggunakan operasi modulus agar bersifat circular. Sebaliknya, dequeue mengambil elemen dari head dan menggeser posisi kepala secara circular. Fungsi printInfo menampilkan seluruh isi queue sesuai jumlah elemen yang tersimpan. Pada fungsi main, program mendemonstrasikan cara kerja circular queue dengan menambah beberapa elemen, menghapus elemen dari depan, menambah elemen lagi setelah terjadi perputaran indeks, dan menampilkan isi queue setiap kali ada perubahan.
 
 
 ## Unguided 
@@ -739,11 +740,17 @@ int main() {
 ![Screenshot Output Unguided 3_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/5d000ee127ac2c09eaabf10378b47edda02fad1c/Pertemuan8_modul8/unguided3/Screenshot%202025-11-24%20090559.png)
 
 penjelasan unguided 1 
-...
+Kode ini mendefinisikan struktur data antrean menggunakan array di C++. Fungsi-fungsi yang diimplementasikan antara lain untuk membuat antrean, memeriksa apakah antrean kosong atau penuh, menambah (enqueue) dan mengeluarkan (dequeue) elemen, serta menampilkan kondisi antrean. File utama menguji antrean dengan beberapa operasi seperti menambah dan mengeluarkan elemen, serta menampilkan kondisi antrean setelah setiap aksi.
+
+penjelasan unguided 2
+Program di atas mengimplementasikan struktur data queue (antrean) menggunakan array dalam bahasa C++. queue.h mendefinisikan struktur Queue dengan array info untuk menyimpan elemen, serta dua variabel integer head dan tail untuk menunjuk elemen pertama dan terakhir. Beberapa fungsi yang dideklarasikan antara lain: createQueue untuk menginisialisasi antrean, isEmptyQueue dan isFullQueue untuk mengecek kondisi antrean, enqueue untuk menambah elemen ke antrean, dequeue untuk mengeluarkan elemen, dan printInfo untuk menampilkan status antrean. Di queue.cpp, implementasi fungsi-fungsi tersebut dijelaskan dengan cara memanipulasi posisi head dan tail berdasarkan kondisi antrean (kosong atau penuh). Program utama di main.cpp menguji antrean dengan beberapa operasi, seperti menambahkan elemen (5, 2, 7, 4) dan mengeluarkannya, serta menampilkan status antrean setiap kali operasi dilakukan.
+
+penjelasan unguided 3
+Kode ini mengimplementasikan queue dengan teknik circular queue dalam C++. Struktur Queue memiliki array info untuk menyimpan elemen dan variabel head serta tail untuk menunjukkan posisi elemen. Fungsi-fungsinya meliputi: enqueue untuk menambah elemen, dequeue untuk mengeluarkan elemen, serta printInfo untuk menampilkan status antrean. Posisi head dan tail diatur secara sirkuler menggunakan modulus % 5 agar tetap berada dalam batas kapasitas. Di main.cpp, antrean diuji dengan beberapa operasi dan menampilkan status setelah setiap aksi.
 
 ## Kesimpulan
-...
-
+Struktur data merupakan komponen penting dalam pemrograman karena berfungsi untuk mengatur, menyimpan, dan mengelola data agar lebih mudah diakses dan diproses. Penggunaan struktur data yang tepat akan meningkatkan efisiensi kinerja program dan membantu menangani pengolahan data yang kompleks. Salah satu struktur data yang sering digunakan adalah queue, yang bekerja dengan prinsip FIFO (First In, First Out). Queue sangat bermanfaat dalam berbagai aplikasi seperti penjadwalan proses, pengelolaan antrean tugas, manajemen pesan, serta sistem yang membutuhkan pengolahan data secara berurutan. Selain itu, queue memiliki beberapa jenis yang dapat disesuaikan dengan kebutuhan, baik dari sisi implementasi seperti Linear Queue dan Circular Queue, maupun dari sisi penggunaan seperti Priority Queue dan Double-ended Queue. Dengan memahami jenis dan fungsi queue, programmer dapat memilih model antrean yang paling sesuai untuk menyelesaikan permasalahan secara lebih efisien.
 
 ## Referensi
-...
+[1] Anaraindyah, R. (2024). Struktur data: Pengertian, fungsi, dan penerapannya. Universitas Negeri Surabaya.https://share.google/kfvAZsEHXwWWO9ZVc
+[2] Maulana, R. (2023). Struktur data queue: Pengertian, fungsi, dan jenisnya. Digoding.https://share.google/pxu2YAgcsMBzVlprm
