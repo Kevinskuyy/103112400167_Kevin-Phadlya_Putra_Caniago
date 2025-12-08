@@ -1,12 +1,20 @@
-# <h1 align="center">Laporan Praktikum Modul 7 - TREE </h1>
+# <h1 align="center">Laporan Praktikum Modul 10 - TREE </h1>
 <p align="center">Kevin Phadlya Putra Caniago - 103112400167</p>
 
 ## Dasar Teori
-...
+Tree adalah struktur data non-linear yang digunakan untuk merepresentasikan hubungan hierarkis antar elemen (node). Berbeda dengan array atau linked list yang bersifat linear, tree memiliki bentuk bercabang seperti pohon, di mana setiap node dapat memiliki lebih dari satu anak. Tree terdiri atas root sebagai node utama, node parent, node child, dan node leaf sebagai node tanpa anak. Struktur ini memungkinkan proses pencarian, penyisipan, serta pengelolaan data dilakukan dengan lebih efisien [1].
+Secara umum, tree memiliki karakteristik berikut:
+Root: node paling atas dalam struktur tree.
+Edge: penghubung antara dua node.
+Child: node yang berada di bawah node lain.
+Parent: node yang memiliki child.
+Leaf: node tanpa child.
+Subtree: bagian tree yang merupakan tree baru di dalamnya.
+Struktur data tree banyak digunakan dalam algoritma pencarian, pengurutan, representasi ekspresi matematika, hingga struktur file sistem operasi karena kemampuannya mengelola data terstruktur secara hierarkis [2].
 
-### A. QUEUE
-...
 
+### A. tree
+Tree merupakan bentuk struktur data yang membentuk hierarki melalui hubungan antar simpul (node) yang terhubung oleh jalur (edge). Dimulai dari simpul utama yang disebut root, setiap node bisa memiliki satu atau lebih node turunan (child), sedangkan node yang tidak memiliki turunan disebut sebagai daun (leaf) [2].
 
 ## Guided 
 
@@ -373,10 +381,10 @@ int main() {
 
 
 penjelasan unguided 1 
-...
+Program ini berfungsi sebagai implementasi lengkap dari Binary Search Tree (BST) menggunakan bahasa C++. Program ini mampu melakukan berbagai operasi penting dalam struktur data BST, mulai dari pembuatan node, penyisipan data, pencarian, penghapusan, traversal, hingga perhitungan informasi statistik mengenai tree.
 
 ## Kesimpulan
-...
+Multi Linked List merupakan struktur data yang terdiri dari beberapa kelompok Linked List terpisah namun tetap dapat diakses sekaligus, sehingga memudahkan pengelompokan data secara rapi dan terorganisasi; sedangkan Tree adalah struktur data hierarkis yang menghubungkan node melalui hubungan parent–child, dimulai dari root hingga leaf, sehingga cocok untuk merepresentasikan data bertingkat; dan algoritma rekursif adalah teknik pemrograman di mana suatu fungsi memanggil dirinya sendiri dengan ruang masalah yang semakin kecil, sehingga sangat efektif digunakan pada proses yang memiliki pola berulang seperti traversal pada Tree. Dengan memahami ketiga konsep ini, kita dapat memilih dan menggunakan struktur data ataupun algoritma yang tepat sesuai kebutuhan aplikasi.
 
 ## Referensi
-...
+[1] Wibowo, F., & Sunaryo, A. (2020). Analisis Struktur Data Tree dalam Pengembangan Algoritma Pencarian. Jurnal Teknologi Informatika, 14(2), 45–52. [2] Putra, D. A., & Nugroho, R. (2019). Implementasi Struktur Data Tree pada Sistem Informasi Hierarki Organisasi. Jurnal Informatika dan Sistem Informasi, 5(1), 33–40.
