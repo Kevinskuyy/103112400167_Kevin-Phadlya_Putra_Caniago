@@ -184,7 +184,7 @@ int treeDepth(address root); //function untuk menghitung height atau kedalaman a
 ```
 
 penjelasan singkat guided 1
-...
+Program ini mengimplementasikan Binary Search Tree (BST) dalam C++ dengan operasi dasar seperti penambahan node, traversal, dan penghitungan jumlah node serta kedalaman tree. Di main.cpp, tree dibuat dan node ditambahkan menggunakan fungsi insertNode. Hasil traversal tree ditampilkan dengan metode InOrder, PreOrder, dan PostOrder, serta menghitung jumlah node dan kedalaman dengan fungsi countNodes dan treeDepth. Di bst.cpp, terdapat fungsi untuk memeriksa apakah tree kosong (isEmpty), membuat tree baru (createTree), dan menambahkan node (insertNode). Fungsi traversal seperti preOrder, inOrder, dan postOrder digunakan untuk mencetak elemen tree dalam urutan berbeda. Program ini menunjukkan cara mengelola BST, melakukan traversal, serta menganalisis ukuran dan kedalaman tree.
 
 
 ## Unguided 
@@ -369,7 +369,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/54667e4cabe791493e6d9ecff1e002b29d926367/Pertemuan10_modul10/unguided/Screenshot%202025-12-08%20181259.png)
 
 
 penjelasan unguided 1 
