@@ -678,12 +678,12 @@ int main(){
 }
 ```
 ## Output
-#### a. Insert
-![]()
-#### b. Search Hewan
-![]()
-#### c. Delete node G004
-![]()
+#### a. gambar 1
+![](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/e8894eb9bd5b521219a3052f0efb3b815afb8966/Pertemuan13_modul13/unguided/gambar1.png)
+#### b. gambar 2
+![](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/e8894eb9bd5b521219a3052f0efb3b815afb8966/Pertemuan13_modul13/unguided/gambar2.png)
+#### c. gambar 3
+![](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/e8894eb9bd5b521219a3052f0efb3b815afb8966/Pertemuan13_modul13/unguided/gambar3.png)
 Program ini merupakan implementasi Multi Linked List menggunakan bahasa C++ yang memodelkan hubungan golongan hewan sebagai node parent dan data hewan sebagai node child. Setiap node parent menyimpan satu golongan hewan dan memiliki list child yang berisi data hewan sesuai golongannya. Program menyediakan operasi pembuatan list, alokasi dan dealokasi node, penambahan dan penghapusan data parent maupun child, pencetakan seluruh struktur multilevel linked list, serta pencarian data hewan berdasarkan atribut ekor. Dengan struktur ini, program dapat menampilkan, menelusuri, dan mengelola data hewan secara bertingkat sesuai golongannya.
 ## Kesimpulan
 
