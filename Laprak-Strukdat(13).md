@@ -679,11 +679,11 @@ int main(){
 ```
 ## Output
 #### a. Insert
-![](gambar/gambarA.png)
+![]()
 #### b. Search Hewan
-![](gambar/gambarB.png)
+![]()
 #### c. Delete node G004
-![](gambar/gambarC.png)
+![]()
 Program ini merupakan implementasi Multi Linked List menggunakan bahasa C++ yang memodelkan hubungan golongan hewan sebagai node parent dan data hewan sebagai node child. Setiap node parent menyimpan satu golongan hewan dan memiliki list child yang berisi data hewan sesuai golongannya. Program menyediakan operasi pembuatan list, alokasi dan dealokasi node, penambahan dan penghapusan data parent maupun child, pencetakan seluruh struktur multilevel linked list, serta pencarian data hewan berdasarkan atribut ekor. Dengan struktur ini, program dapat menampilkan, menelusuri, dan mengelola data hewan secara bertingkat sesuai golongannya.
 ## Kesimpulan
 
