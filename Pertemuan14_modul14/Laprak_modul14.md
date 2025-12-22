@@ -287,7 +287,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/78b0eb1eece966d5b80505008c0bb943d8919361/Pertemuan14_modul14/Unguided/Screenshot%202025-12-22%20195854.png)
 
 Program tersebut merupakan implementasi struktur data graph tak berarah (undirected graph) menggunakan linked list dalam bahasa C++. Graph dibangun dari node-node yang menyimpan informasi berupa karakter dan daftar edge sebagai adjacency list. Program diawali dengan membuat graph kosong, kemudian menambahkan node A hingga H. Setiap node dihubungkan menggunakan fungsi ConnectNode yang membuat dua edge sekaligus sehingga hubungan bersifat dua arah. Setelah seluruh hubungan antar node terbentuk, fungsi PrintInfoGraph digunakan untuk menampilkan setiap node beserta node-node lain yang terhubung dengannya. Program ini menunjukkan cara membangun, menghubungkan, dan menampilkan graph tak berarah menggunakan struktur data linked list.
 
@@ -463,8 +463,8 @@ int main(){
 ```
 ### Output Unguided 2 :
 
-##### Output 1
-![Screenshot Output Unguided 2_1]()
+##### Output 2
+![Screenshot Output Unguided 2_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/78b0eb1eece966d5b80505008c0bb943d8919361/Pertemuan14_modul14/Unguided2/Screenshot%202025-12-22%20200134.png)
 
 Program ini merupakan implementasi graph tak berarah (undirected graph) menggunakan linked  dengan penelusuran Depth First Search (DFS). Graph dibangun dengan menambahkan node A hingga H, lalu menghubungkannya secara dua arah menggunakan fungsi ConnectNode, sehingga setiap hubungan antar node dapat ditelusuri bolak-balik. Setiap node memiliki penanda visited untuk menghindari kunjungan berulang saat proses DFS. Fungsi Visited digunakan untuk menginisialisasi semua node agar belum dikunjungi, kemudian fungsi printDFS melakukan penelusuran graph secara mendalam mulai dari node A dengan mencetak urutan node yang dikunjungi.
 
@@ -651,8 +651,8 @@ int main(){
 ```
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 3_1]()
+##### Output 3
+![Screenshot Output Unguided 3_1](https://github.com/Kevinskuyy/103112400167_Kevin-Phadlya_Putra_Caniago/blob/78b0eb1eece966d5b80505008c0bb943d8919361/Pertemuan14_modul14/Unguided3/Screenshot%202025-12-22%20200134.png)
 
 Program ini merupakan implementasi graph tak berarah (undirected graph) menggunakan linked list dengan algoritma Breadth First Search (BFS). Graph dibentuk dengan menambahkan node A hingga H dan menghubungkannya secara dua arah menggunakan fungsi ConnectNode, sehingga setiap node memiliki daftar tetangga (adjacency list). Setiap node memiliki atribut visited untuk menandai apakah node sudah dikunjungi atau belum. Sebelum BFS dijalankan, fungsi Visited digunakan untuk menginisialisasi semua node menjadi belum dikunjungi. Fungsi printBFS kemudian melakukan penelusuran graph secara melebar menggunakan struktur data queue, dimulai dari node A, dan mencetak urutan node yang dikunjungi.
 
